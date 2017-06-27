@@ -31,7 +31,7 @@ warn := \
 
 CFLAGS := -g -std=gnu99 $(warn) $(incl) $(opt) $(prof) $(osargs)
 
-lib := -L/usr/local/lib -lgsl -lgslcblas -lpthread -lm
+lib := -L/usr/local/lib -lgsl -lgslcblas -lpthread -lm -lexecinfo
 
 .c.o:
 	$(CC) $(CFLAGS) $(incl) -c -o ${@F}  $<

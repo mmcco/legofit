@@ -11,6 +11,7 @@
 #include "lblndx.h"
 #include <assert.h>
 #include <ctype.h>
+#include <execinfo.h>
 #include <gsl/gsl_randist.h>
 #include <gsl/gsl_rng.h>
 #include <limits.h>

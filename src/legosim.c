@@ -94,6 +94,7 @@ Systems Consortium License, which can be found in file "LICENSE".
 #include "branchtab.h"
 #include <assert.h>
 #include <getopt.h>
+#include <pthread.h>
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
